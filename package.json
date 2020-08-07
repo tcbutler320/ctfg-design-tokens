@@ -1,0 +1,31 @@
+{
+  "name": "ctfg-design-tokens",
+  "version": "2.0.10",
+  "description": "CTFG Design Tokens",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "source": "src/index.js",
+  "sideEffects": "false",
+  "author": "Tyler Butler <developer.tbutler@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcbutler320/ctfg-design-tokens.git",
+    "directory": "packages/ctfg-design-tokens"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "hex2rgba": "^0.0.1"
+  },
+  "devDependencies": {
+    "agadoo": "^1.1.0",
+    "cross-env": "^5.2.1",
+    "microbundle": "^0.12.2",
+    "preval.macro": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}
