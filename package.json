@@ -8,6 +8,7 @@
   "sideEffects": "false",
   "author": "Tyler Butler <developer.tbutler@gmail.com>",
   "license": "MIT",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "https://github.com/tcbutler320/ctfg-design-tokens.git",
